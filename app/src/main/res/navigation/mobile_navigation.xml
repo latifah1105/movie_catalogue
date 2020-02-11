@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_movie">
+
+    <fragment
+        android:id="@+id/navigation_movie"
+        android:name="io.github.latifah1105.movie3.fragment.MovieFragment"
+        android:label="@string/movie"
+        tools:layout="@layout/fragment_movie" >
+        <action
+            android:id="@+id/action_navigation_movie_to_navigation_tv_show"
+            app:destination="@id/navigation_tv_show" />
+        <action
+            android:id="@+id/action_navigation_movie_pop"
+            app:popUpTo="@id/navigation_movie"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_tv_show"
+        android:name="io.github.latifah1105.movie3.fragment.TvShowFragment"
+        android:label="@string/tv_show"
+        tools:layout="@layout/fragment_tv_show" >
+        <action
+            android:id="@+id/action_navigation_tv_show_to_navigation_movie"
+            app:popUpTo="@id/navigation_movie" />
+    </fragment>
+
+</navigation>

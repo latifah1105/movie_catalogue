@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="title_activity_main">Movie</string>
+    <string name="movie">Film</string>
+    <string name="tv_show">Acara TV</string>
+    <string name="image">Gambar</string>
+    <string name="todo">SEGALA SESUATU</string>
+    <string name="user_score">Skor Pengguna</string>
+    <string name="overview">Gambaran</string>
+    <string name="change_language" translatable="false">Ubah bahasa</string>
+
+    <!--    MOVIE-->
+    <string-array name="movie_title">
+        <item>Ralph Breaks the Internet</item>
+        <item>Incredibles 2</item>
+        <item>Avengers: Infinity War </item>
+        <item>Aquaman</item>
+        <item>To All the Boys I\'ve Loved Before</item>
+        <item>Bumblebee</item>
+        <item>Hotel Transylvania 3: Summer Vacation</item>
+        <item>A Quite Place</item>
+        <item>Venom</item>
+        <item>Bird Box</item>
+    </string-array>
+
+    <string-array name="movie_score">
+        <item>75%</item>
+        <item>75%</item>
+        <item>83%</item>
+        <item>63%</item>
+        <item>79%</item>
+        <item>65%</item>
+        <item>68%</item>
+        <item>73%</item>
+        <item>66%</item>
+        <item>69%</item>
+    </string-array>
+
+    <string-array name="movie_overview">
+        <item>Pemain video game, Ralph, dan rekan-rekannya yang tidak cocok, Vanellope von Schweetz, harus menanggung risiko semuanya
+            bepergian ke World Wide Web untuk mencari bagian pengganti untuk menyelamatkan video game Vanellope,
+            "Sugar Rush." Di atas kepala mereka, Ralph dan Vanellope bergantung pada warga internet netizen
+            untuk membantu menavigasi jalan mereka, termasuk seorang pengusaha bernama Yesss,
+             yang merupakan algoritme kepala dan jantung serta jiwa dari situs pembuat tren BuzzzTube.</item>
+
+        <item>Elastigirl bertindak untuk menyelamatkan hari itu, sementara Tuan Luar Biasa menghadapinya
+            tantangan terbesar namun mengurus masalah ketiga anaknya.</item>
+
+        <item>Sebagai Avengers dan sekutu mereka terus melindungi dunia dari ancaman
+            terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari kosmik
+            bayangan: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam I
+            Batu tak berujung, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan kemauan yang bengkok             pada semua kenyataan. Segala yang Avengers telah perjuangkan telah mengarah ke saat ini             nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti.</item>
+
+        <item>Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang menjadi air
+            kerajaan diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar,
+            Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian permukaan dunia.
+            Yang menghalanginya adalah Arthur Curry, manusia setengah manusia Orm,
+            setengah saudara Atlantis dan pewaris sejati takhta.</item>
+
+        <item>Kehidupan cinta Lara Jean berubah dari imajiner menjadi di luar kendali ketika
+            surat-surat rahasianya kepada setiap anak laki-laki yang pernah jatuh hati padanya dikirim secara misterius.</item>
+
+        <item>Dalam pelarian pada tahun 1987, Bumblebee menemukan perlindungan di tempat barang
+            rongsokan di sebuah tempat kecil Kota pantai California. Charlie, di puncak usia 18
+            dan berusaha menemukannya tempat di dunia, menemukan Bumblebee, pertempuran-bekas luka dan rusak.
+            Ketika Charlie membangkitkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa.</item>
+
+        <item>Dracula, Mavis, Johnny dan anggota Drac Pack lainnya berlibur dengan mewah
+            Monster Cruise Ship, tempat Dracula jatuh cinta dengan kapten kapal, Ericka, yang diam-diam
+            adalah keturunan Abraham Van Helsing, pembunuh monster yang terkenal kejam.</item>
+
+        <item>Sebuah keluarga terpaksa hidup dalam kesunyian sambil bersembunyi dari makhluk yang berburu dengan suara.</item>
+
+        <item>Jurnalis investigasi Eddie Brock berusaha untuk kembali setelah skandal,
+            tetapi secara tidak sengaja menjadi tuan rumah Venom, seorang simbiot alien yang sangat kuat dan berkuasa.
+            Segera, ia harus bergantung pada kekuatan barunya untuk melindungi dunia dari organisasi
+            bayangan mencari symbiote mereka sendiri.</item>
+
+        <item>Lima tahun setelah kehadiran tak terlihat yang tak menyenangkan membuat sebagian besar
+            masyarakat bunuh diri, seorang korban dan dua anaknya melakukan upaya putus asa untuk mencapai keselamatan.</item>
+    </string-array>
+
+    <array name="movie_image">
+        <item>@drawable/ralph</item>
+        <item>@drawable/incredibles</item>
+        <item>@drawable/avengerinfinity</item>
+        <item>@drawable/aquaman</item>
+        <item>@drawable/to_all_the_boys</item>
+        <item>@drawable/bumblebee</item>
+        <item>@drawable/hotel_transylvania</item>
+        <item>@drawable/quite_place</item>
+        <item>@drawable/venom</item>
+        <item>@drawable/birdbox</item>
+    </array>
+
+    <!--    TV SHOW-->
+    <string-array name="tv_title">
+        <item>The Amazing World of Gumball</item>
+        <item>SpongeBob SquarePants</item>
+        <item>Adventure Time</item>
+        <item>My Little Pony: Friendship is Magic</item>
+        <item>The PowerPuff Girls</item>
+        <item>We Bare Bears</item>
+        <item>Lilo &amp; Stitch</item>
+        <item>Larva</item>
+        <item>Oddbods</item>
+        <item>Barbie Dreamhouse Adventures</item>
+    </string-array>
+
+    <string-array name="tv_score">
+        <item>96%</item>
+        <item>93%</item>
+        <item>96%</item>
+        <item>90%</item>
+        <item>51%</item>
+        <item>96%</item>
+        <item>95%</item>
+        <item>86%</item>
+        <item>85%</item>
+        <item>95%</item>
+    </string-array>
+
+    <string-array name="tv_overview">
+        <item>Tolong kucing dan ikan masnya yang sedang berjalan, Darwin, masuk ke semua jenis
+            situasi gila dalam seri animasi yang menarik ini dari Cartoon Network.</item>
+
+        <item>Dari pangkalan nanasnya di bawah laut, SpongeBob dan teman-temannya,
+            termasuk siput hewan peliharaannya yang mengeong Gary, masuk ke kesialan yang tak terlupakan.</item>
+
+        <item>Finn muda dan sahabatnya yang berubah bentuk, Jake, memiliki serangkaian mimpi
+            Petualangan saat mereka melakukan perjalanan melalui Tanah Oap postapocalyptic.</item>
+
+        <item>Perjalanan ke tanah ajaib Equestria, tempat unicorn Twilight Sparkle
+            dan teman-temannya memiliki petualangan dan belajar pelajaran berharga tentang persahabatan.</item>
+
+        <item>"Gula, rempah-rempah, dan semua yang enak" kembali untuk menyelamatkan kota mereka
+            orang jahat dalam kebangkitan serial animasi klasik ini.</item>
+
+        <item>Grizzly, Panda, dan Ice Bear adalah tiga saudara beruang adopsi yang berjuang
+            terhadap naluri binatang mereka untuk masuk ke dunia manusia modern yang beradab.</item>
+
+        <item>Komedi animasi penuh lagu Disney mengikuti seorang gadis Hawaii yang kesepian bernama Lilo
+            yang mengadopsi anjing yang tampak lucu dan tidak menyadari itu adalah alien yang aneh.</item>
+
+        <item>Dua cacing penasaran menghabiskan hari-hari mereka menyelidiki benda-benda dunia lain
+            yang jatuh melalui jeruji ke dunia bawah tanah mereka.</item>
+
+        <item>Tujuh teman berbulu dan penuh warna yang tinggal di kota kecil Oddsville
+            suka bermain, berpetualang dan masuk ke segala macam kerusakan kreatif.</item>
+
+        <item>Kenali Barbie dan BFF-nya - termasuk tetangga sebelah Ken - dalam hal ini
+            animasi vlog petualangan yang difilmkan di dalam rumah impian baru keluarganya.</item>
+    </string-array>
+
+    <array name="tv_image">
+        <item>@drawable/gumball</item>
+        <item>@drawable/spongebob</item>
+        <item>@drawable/adventure_time</item>
+        <item>@drawable/little_pony</item>
+        <item>@drawable/powerpuff</item>
+        <item>@drawable/webarebear</item>
+        <item>@drawable/stitch</item>
+        <item>@drawable/larva</item>
+        <item>@drawable/oddbods</item>
+        <item>@drawable/barbie</item>
+    </array>
+    <string name="popularity">Popularitas</string>
+</resources>
